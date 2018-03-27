@@ -4,4 +4,5 @@ function forLoop(arr)
   {
     arr.push(`"I am ${i} strange loop${i === 1 ? '' : 's'}."`);
   }
+  return arr;
 }
