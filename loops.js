@@ -7,4 +7,11 @@ function forLoop(arr)
   return arr;
 }
 
-function 
+function whileLoop(num)
+{
+  while (num)
+  {
+    console.log(--num);
+  }
+  return 'done';
+}
